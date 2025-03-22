@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.oniosouza.desafio_todolist.entity.Todo;
 import br.com.oniosouza.desafio_todolist.service.TodoService;
 
+//controle da aplicacao com andpoints
+
 @RestController
 @RequestMapping("/todo")
 public class TodoController {
